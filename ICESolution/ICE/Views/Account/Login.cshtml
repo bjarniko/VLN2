@@ -11,9 +11,10 @@
     }
 }
 
-<body style="background-color:#0E185B;">
+<body style="background-color:dimgray;">
    
 <div class="row">
+    <img src='~/Content/logo.png' alt="Banner" width="180" height="90" style="margin-left:420px"/>
     <div class="col-md-8">
         <section id="loginForm">
             @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
